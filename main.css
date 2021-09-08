@@ -1,0 +1,19 @@
+body{
+    margin: 1rem;
+    padding: 1rem;  
+}
+textarea{
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: .5rem;
+    background-color: rgb(245, 242, 239);
+}
+#outputTxt{
+    border: 2px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: .5rem;
+}
