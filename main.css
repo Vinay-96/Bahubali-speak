@@ -1,6 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+:root{
+    --primary-color: #8B5CF6;
+    --secondary-color:#DDD6FE;
+}
 body{
-    margin: 1rem;
-    padding: 1rem;  
+    margin: 0;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/911d12e5-e3b6-48a8-8600-1cf01f080d8c/d68s40h-a45bc70e-e753-49a3-8aff-841d5af1670a.png/v1/fill/w_1192,h_670,q_70,strp/avatar_fan_film_forest_tree_of_souls__test1_by_massi_san_d68s40h-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAxMyIsInBhdGgiOiJcL2ZcLzkxMWQxMmU1LWUzYjYtNDhhOC04NjAwLTFjZjAxZjA4MGQ4Y1wvZDY4czQwaC1hNDViYzcwZS1lNzUzLTQ5YTMtOGFmZi04NDFkNWFmMTY3MGEucG5nIiwid2lkdGgiOiI8PTE4MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.O4letCKW1a2mjtIOL8m8vn34z34fynl0lbNKFygtMqU);
+}
+div{
+    display: block;
+    padding: 1rem;
+    align-content: center;
+    font-family: 'Indie Flower', cursive;
+    
+}
+nav{
+    background-color:var(--primary-color);
+    display: block;
+    text-align: center;
+}
+main{
+    margin: auto;
+    padding: 1rem;
+    display: block;
+    width: 500px;
+    bottom:0;
 }
 textarea{
     width: 80%;
@@ -8,7 +34,16 @@ textarea{
     display: block;
     margin: 1rem;
     padding: .5rem;
-    background-color: rgb(245, 242, 239);
+    background-color:var(--secondary-color);
+}
+#btnTranslate{
+    background-color: var(--primary-color);
+    font-family: 'Indie Flower', cursive;
+    font-size: large;
+    margin: 1rem;
+    padding: 1rem;
+    border:none;
+
 }
 #outputTxt{
     border: 2px solid black;
@@ -16,4 +51,21 @@ textarea{
     width: 80%;
     margin: 1rem;
     padding: .5rem;
+    background-color:var(--secondary-color);
 }
+footer{
+    display: block;
+    font-family: 'Indie Flower', cursive;
+    position: fixed;
+    width: 100%;
+    padding: .5rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    bottom: 0;
+} 
+#para{
+    max-width: 500px;
+    margin: auto;
+}
+
+
